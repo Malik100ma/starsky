@@ -188,7 +188,7 @@
       border-radius: 20px;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
       text-align: center;
-      scroll-margin-top: 100px; /* Отступ при прокрутке по кнопкам меню */
+      scroll-margin-top: 100px;
     }
 
     .content-section h2 {
@@ -253,7 +253,7 @@
       margin: 60px 20px 100px 20px;
       width: 100%;
       text-align: center;
-      scroll-margin-top: 100px; /* Отступ при прокрутке к галерее */
+      scroll-margin-top: 100px;
     }
 
     .gallery-section h2 {
@@ -278,6 +278,8 @@
       background: rgba(18, 19, 26, 0.6);
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
       transition: transform 0.3s ease, border-color 0.3s ease;
+      display: block;
+      text-decoration: none;
     }
 
     .gallery-item:hover {
@@ -359,18 +361,18 @@
     <section id="gallery" class="gallery-section">
       <h2>Галерея</h2>
       <div class="gallery-grid">
-        <div class="gallery-item">
+        <a href="img1.jpg" target="_blank" class="gallery-item">
           <img src="img1.jpg" alt="Главное меню StarSky">
-        </div>
-        <div class="gallery-item">
+        </a>
+        <a href="img2.png" target="_blank" class="gallery-item">
           <img src="img2.png" alt="Сетевая игра">
-        </div>
-        <div class="gallery-item">
+        </a>
+        <a href="img3.jpg" target="_blank" class="gallery-item">
           <img src="img3.jpg" alt="Меню модулей ClickGUI">
-        </div>
-        <div class="gallery-item">
+        </a>
+        <a href="img4.jpg" target="_blank" class="gallery-item">
           <img src="img4.jpg" alt="Игровой процесс">
-        </div>
+        </a>
       </div>
     </section>
   </main>
